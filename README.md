@@ -2,6 +2,8 @@
 
 Download invoices from Vodafone/Kabel Deutschland automatically using web automation.
 
+This script is heavily influced by [kabelschland](https://github.com/rmoriz/kabelschland) by rmoriz
+
 ## prerequisites
 
 This only worls on mac os.

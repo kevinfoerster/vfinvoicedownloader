@@ -8,7 +8,7 @@ require('nightmare-inline-download')(Nightmare);
 function puts(error, stdout, stderr) {
 	sys.puts(stdout)
 }
-// TODO: username should come from keychain as well
+
 const username = exec(`security find-generic-password -gs Vodafone | grep '"acct"<blob>=' | cut -d'=' -f 2 | sed -e 's/^"//' -e 's/"$//'`).stdout.trim()
 const password = exec(`security find-generic-password -ws Vodafone`).stdout;
 const downloadDir = exec(`echo $HOME`).stdout.trim() + '/Downloads/';

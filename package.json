@@ -12,5 +12,9 @@
     "nightmare": "^2.10.0",
     "nightmare-inline-download": "^0.2.2",
     "sync-exec": "^0.6.2"
+  },
+  "repository" :
+    { "type" : "git"
+    , "url" : "https://github.com/kevinfoerster/vfinvoicedownloader"
   }
 }
