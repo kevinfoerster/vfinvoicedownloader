@@ -1,6 +1,6 @@
 # vfinvoicedownloader
 
-Download invoices from Vodafone/Kabel Deutschland automatically using web automation.
+Download invoices from Vodafone/Kabel Deutschland automatically using web automation. This will not work with mobile contracts.
 
 This script is heavily influced by [kabelschland](https://github.com/rmoriz/kabelschland) by rmoriz
 
