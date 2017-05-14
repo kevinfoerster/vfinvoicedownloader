@@ -1,0 +1,16 @@
+{
+  "name": "vfinvoicedownloader",
+  "version": "1.0.0",
+  "description": "Download invoices from Vodafone/Kabel Deutschland automatically using web automation technics.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kevin Förster",
+  "license": "MIT",
+  "dependencies": {
+    "nightmare": "^2.10.0",
+    "nightmare-inline-download": "^0.2.2",
+    "sync-exec": "^0.6.2"
+  }
+}
